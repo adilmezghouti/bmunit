@@ -1,0 +1,53 @@
+DNA {
+    "debug" Boolean "true",
+    "modules" StringArray [
+        "bmcommon",
+        "appcommon",
+        "b2b",
+        "pdc",
+        "catalog",
+        "thirdparty",
+        "workflow",
+        "i18n",
+        "help",
+        "custom",
+        "archive",
+        "publish",
+        "modelgen",
+        "bmunit"
+    ],
+    "module_paths" DNA {
+        "workflow" String "$BMS_CONFIG_HOME/workflow/config/workflow",
+        "publish" String "$BMS_CONFIG_HOME/publish/config/publish",
+        "modelgen" String "$BMS_CONFIG_HOME/modelgen/config/modelgen"
+    },
+    "bizact" DNA {
+        "strict" Boolean "false",
+        "client" DNA {
+            "eac" DNA {
+                "default" Boolean "true",
+                "protocol" String "rmi",
+                "host" String "$BMS_EAC_SERVER",
+                "port" Integer "$BMS_EAC_PORT",
+                "checkAtStartup" Boolean "true"
+            },
+            "publish" DNA {
+                "protocol" String "http",
+                "host" String "$BMS_PUBLISH_SERVER",
+                "port" Integer "$BMS_PUBLISH_HTTP_PORT"
+            },
+            "ems" DNA {
+                "protocol" String "rmi",
+                "host" String "$BMS_EMS_SERVER",
+                "port" Integer "$BMS_EMS_PORT"
+            },
+            "website" DNA {
+                "protocol" String "rmi",
+                "host" String "$BMS_WEBSITE_SERVER",
+                "port" Integer "$BMS_WEBSITE_PORT"
+            }
+        }
+    },
+    "server_list" DNA {
+    }
+}
