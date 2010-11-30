@@ -1,0 +1,24 @@
+DNA {
+    "TestBizact" DNA {
+        "database" String "eac", "class" String "com.bluemartini.bmunit.TestBizact",
+        "input" DNAArray [
+            {
+                "businessObjectType" String "USER_ACCOUNT",
+                "path" StringArray [
+                    "LOGIN"
+                ],
+                "required" Boolean "true",
+                "type" String "BusinessObject"
+            }
+        ],
+        "output" DNAArray [
+            {
+                "path" StringArray [
+                    "validLogin"
+                ],
+                "required" Boolean "false",
+                "type" String "Boolean"
+            }
+        ]
+    }
+}

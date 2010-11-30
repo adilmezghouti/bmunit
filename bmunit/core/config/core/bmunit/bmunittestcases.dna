@@ -1,0 +1,54 @@
+DNA {
+	"Ping" DNA {
+		"bizact" String "Ping",
+		"input" DNA {
+		},
+		"output" DNA {
+		}
+	},
+	"Incorrect bizact name" DNA {
+		"bizact" String "Foo",
+		"input" DNA {
+			"userid" String "blue",
+			"password" String "martini"
+		},
+		"output" DNA {
+		    "validLogin" Boolean "true"		
+		}
+	},
+	"Incorrect input" DNA {
+		"bizact" String "TestBizact",
+		"input" DNA {
+			"userid" String "blue",
+			"password" String "martini"
+		},
+		"output" DNA {
+		    "validLogin" Boolean "true"
+		}
+	},
+	"Incorrect output" DNA {
+		"bizact" String "TestBizact",
+		"input" DNA {
+		    "LOGIN" BO(USER_ACCOUNT) {
+		        "userid" String "blue",
+		        "password" String "martini"
+		    }
+		},
+		"output" DNA {
+		    "validLogin" Boolean "false
+		    "
+		}
+	},	
+	"Valid" DNA {
+		"bizact" String "TestBizact",
+		"input" DNA {
+		    "LOGIN" BO(USER_ACCOUNT) {
+		        "userid" String "blue",
+		        "password" String "martini"
+		    }
+		},
+		"output" DNA {
+		    "validLogin" Boolean "true"
+		}
+	}
+}
