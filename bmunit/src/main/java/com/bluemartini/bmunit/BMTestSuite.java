@@ -9,6 +9,14 @@ import com.bluemartini.dna.DNAList;
 import com.bluemartini.dna.DNAListIterator;
 import com.bluemartini.util.MainApp;
 
+/**
+ * This class loads bmunittestcases.dna, it creates a test suite
+ * and add each test case defined in the file to this suite. 
+ * 
+ * @author Yannick Robin
+ *
+ */
+
 public class BMTestSuite extends MainApp {
 	
 	boolean debug = false;

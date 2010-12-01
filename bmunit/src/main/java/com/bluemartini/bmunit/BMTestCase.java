@@ -8,6 +8,15 @@ import junit.framework.AssertionFailedError;
 import junit.framework.TestCase;
 import junit.framework.TestResult;
 
+/**
+ * This class is a test case. It executes a remote core business action
+ * using BMClient.executeBusinessAction(). It parses the actual result and compare
+ * it with the expected result indicated in the test case.
+ * 
+ * @author Yannick Robin
+ *
+ */
+
 public class BMTestCase extends TestCase {
 	
 	String name;

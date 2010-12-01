@@ -4,6 +4,13 @@ import java.util.Vector;
 
 import junit.framework.TestResult;
 
+/**
+ * BMTestResult
+ * 
+ * @author Yannick Robin
+ *
+ */
+
 public class BMTestResult extends TestResult {
 
 	private boolean fStop;
