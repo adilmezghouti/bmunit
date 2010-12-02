@@ -1,10 +1,9 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.bluemartini.bmunit</groupId>
   <artifactId>bmunit</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.0</version>
   <packaging>jar</packaging>
 
   <name>bmunit</name>
@@ -19,9 +18,9 @@
   	<url>http://code.google.com/p/bmunit/issues/list</url>
   </issueManagement>
   <scm>
-  	<connection>scm:svn:https://bmunit.googlecode.com/svn/trunk/bmjmx</connection>
-  	<developerConnection>scm:svn:https://bmunit.googlecode.com/svn/trunk/bmunit</developerConnection>
-  	<url>http://code.google.com/p/bmunit/source/browse/</url>  	
+  	<connection>scm:svn:https://bmunit.googlecode.com/svn/tags/bmunit-1.0.0</connection>
+  	<developerConnection>scm:svn:https://bmunit.googlecode.com/svn/tags/bmunit-1.0.0</developerConnection>
+  	<url>http://code.google.com/p/bmunit/source/browse/tags/bmunit-1.0.0</url>  	
   </scm>
   
   <dependencies>
