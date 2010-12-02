@@ -13,8 +13,8 @@
       <directory>target</directory>
       <outputDirectory>core/classes</outputDirectory>
       <includes>
-        <include>*.jar</include>
-      </includes>
+        <include>bmunit-${project.version}.jar</include>
+      </includes>   
     </fileSet>
   </fileSets>
 </assembly>
