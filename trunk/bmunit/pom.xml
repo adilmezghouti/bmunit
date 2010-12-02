@@ -18,9 +18,9 @@
   	<url>http://code.google.com/p/bmunit/issues/list</url>
   </issueManagement>
   <scm>
-  	<connection>scm:svn:https://bmunit.googlecode.com/svn/tags/bmunit-1.0.0</connection>
-  	<developerConnection>scm:svn:https://bmunit.googlecode.com/svn/tags/bmunit-1.0.0</developerConnection>
-  	<url>http://code.google.com/p/bmunit/source/browse/tags/bmunit-1.0.0</url>  	
+  	<connection>scm:svn:https://bmunit.googlecode.com/svn/trunk/bmunit</connection>
+  	<developerConnection>scm:svn:https://bmunit.googlecode.com/trunk/tags/bmunit</developerConnection>
+  	<url>http://code.google.com/p/bmunit/source/browse/</url>  	
   </scm>
   
   <dependencies>
